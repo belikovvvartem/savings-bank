@@ -1,0 +1,72 @@
+body {
+    padding: 5px 20px;
+    background: #29292a;
+}
+
+.container-other {
+    text-align: left;
+}
+
+button {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+label {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#goalName {
+    width: 95%;
+    height: 100%;
+    margin-top: 10px;
+    color: #fff;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    background: #0000005d;
+}
+
+
+input::file-selector-button {
+    background: none;
+    border: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.input-price input, #amountInput {
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    background: #0000005d;
+}
+
+.input-price input:last-child {
+   width: 50px;    
+}
+
+.add-btn {
+    top: 80px;
+    left: 150px;
+}
+
+.subtract-btn {
+    top: 105px;
+    left: 150px;
+}

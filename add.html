@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додати суму</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/other.css">
+    <script src="scripts/goal_page.js" defer></script>
+</head>
+<body>
+    <div class="container-other">
+        <h3>Скільки грошей ти заробив?</h3>
+        <input type="number" id="amountInput" placeholder="Введіть суму">
+        <a href="goal_page.html"><button class="add-btn" onclick="updateAmountAndRedirect(getAmountInput())">Додати</button></a>
+        <button onclick="redirectTo('goal_page.html')">Назад</button>
+    </div>
+    
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

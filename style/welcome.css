@@ -1,0 +1,19 @@
+body {
+    background: #2A2438;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+}
+
+button {
+    background: none;
+    border: none;
+    color: blue;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}

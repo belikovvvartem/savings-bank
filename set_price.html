@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Встановити ціну</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/set_price.js" defer></script>
+    <link rel="stylesheet" href="style/other.css">
+</head>
+
+<body>
+    <div class="container-other">
+        <h1>Ціна</h1>
+        <label for="goalPrice">Вкажи вартість своєї цілі та обери валюту:</label>
+        <div class="input-price">
+            <input type="number" id="goalPrice" placeholder="Ціна">
+            <input type="text" id="goalCurrency" placeholder="Валюта">
+        </div>
+        <button onclick="nextStep('goal_page.html')">Завершити</button>
+    </div>
+
+</body>
+
+</html>

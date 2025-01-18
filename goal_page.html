@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя ціль</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/goal_page.js" defer></script>
+</head>
+
+<body>
+            <div class="fireworks">
+            <canvas id="canvas"></canvas>
+              </div>
+    <div class="container">
+
+        <button class="settings-button" onclick="redirectTo('settings.html')"><img src="./star.png" alt=""></button>
+        <div class="goal-name">
+                <p class="my-goal">Моя ціль:</p>
+        <h1 id="goalTitle">Назва мрії</h1>
+        </div>
+        <img id="goalImage" src="" alt="Фото цілі">
+        <div class="bar-content">
+            <button class="bar-button" onclick="redirectTo('subtract.html')"><img src="./minus.png" alt=""></button>
+            <div class="progress-bar">
+                <div id="progressFill"></div>
+            </div>
+            <button class="bar-button"  onclick="redirectTo('add.html')"><img src="./plus.png" alt=""></button>
+            <p id="progressText">Накопичено: 0 грн</p>
+
+        </div>
+        <p id="amountLeft">Залишилося накопичити: 0 грн</p>
+    </div>
+
+
+
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/fireworks.js"></script>
+</body>
+
+</html>

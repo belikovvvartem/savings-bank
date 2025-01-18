@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Налаштування</title>
+    <link rel="stylesheet" href="./style/setting.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Налаштування</h1>
+        <p>Оберіть фон:</p>
+        <div class="color-buttons">
+            <button class="color-btn" style="background: #29292a;" onclick="changeBackground('#29292a')"></button>
+
+            <button class="color-btn" style="background: #66BFBF;" onclick="changeBackground('#66BFBF')"></button>
+
+            <button class="color-btn" style="background: #F5C7F7;" onclick="changeBackground('#F5C7F7')"></button>
+
+            <button class="color-btn" style="background: #9D53C3;" onclick="changeBackground('#9D53C3')"></button>
+
+            <button class="color-btn" style="background: #FFE3B0;" onclick="changeBackground('#FFE3B0')"></button>
+            
+
+
+            <button class="color-btn" style="background: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);" onclick="changeBackground('linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%)')"></button>
+
+            <button class="color-btn" style="background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);" onclick="changeBackground('linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9)')"></button>
+
+            <button class="color-btn" style="background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);" onclick="changeBackground('linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)')"></button>
+
+            <button class="color-btn" style="background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59) ;" onclick="changeBackground(' linear-gradient(to right, #12c2e9, #c471ed, #f64f59)')"></button>
+
+            <button class="color-btn" style="background: linear-gradient(to right, #c04848, #480048);" onclick="changeBackground('linear-gradient(to right, #c04848, #480048)')"></button>
+
+            <button class="color-btn" style="background: linear-gradient(to right, blue 33%, yellow 33%, yellow 66%, red 66%);" onclick="changeBackground('linear-gradient(to right, blue 33%, yellow 33%, yellow 66%, red 66%)')"></button>
+            
+        </div>
+
+        <button class="delete-goal" onclick="deleteGoalAndRedirect()">Видалити ціль</button>
+
+        <button class="btn-back" onclick="redirectTo('goal_page.html')">Назад</button>
+    </div>
+
+
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
