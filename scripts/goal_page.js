@@ -59,3 +59,16 @@ function deleteGoal() {
     }
 }
 
+function checkGoalAndActivateFireworks() {
+    let currentAmount = localStorage.getItem('currentAmount');
+    let goalPrice = localStorage.getItem('goalPrice');
+
+    currentAmount = parseFloat(currentAmount);
+    goalPrice = parseFloat(goalPrice);
+
+    if (currentAmount >= goalPrice) {
+        window.location.href = 'finish.html'
+    }
+}
+
+checkGoalAndActivateFireworks();

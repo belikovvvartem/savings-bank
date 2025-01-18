@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя ціль</title>
+    <link rel="stylesheet" href="style/finish.css">
+    <script src="scripts/finish.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="fireworks">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <h1>Вітаємо</h1>
+        <p>
+            Ви назбирали <span id="progressPrice">Накопичено: 0 грн</span> і досягли цілі 
+            <span id="goalTitle">Назва мрії</span>. Чудова робота!
+            Продовжуйте рухатись до нових цілей!
+        </p>
+        <img id="goalImage" src="" alt="Фото цілі">
+        <button onclick="deleteGoalAndRedirect()" class="delete-goal">Закрити</button></a>
+    </div>
+
+
+    <script src="./scripts/fireworks.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
