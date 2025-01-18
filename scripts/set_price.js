@@ -5,3 +5,22 @@ function nextStep(page) {
     localStorage.setItem('goalCurrency', currency);
     window.location.href = page;
 }
+
+document.addEventListener("touchstart", function(event) {
+    if (event.target.tagName === "INPUT") {
+      document.body.style.zoom = "1"; 
+    }
+  });
+  
+  document.addEventListener("touchend", function(event) {
+    if (event.target.tagName === "INPUT") {
+      document.body.style.zoom = "";
+    }
+  });
+
+
+
+
+
+
+  

@@ -23,3 +23,16 @@ function deleteGoalAndRedirect() {
     localStorage.clear();
     window.location.href = 'index.html';
 }
+
+document.addEventListener("touchstart", function(event) {
+    if (event.target.tagName === "INPUT") {
+      document.body.style.zoom = "1"; 
+    }
+  });
+  
+  document.addEventListener("touchend", function(event) {
+    if (event.target.tagName === "INPUT") {
+      document.body.style.zoom = ""; 
+    }
+  });
+  

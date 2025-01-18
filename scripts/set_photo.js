@@ -7,3 +7,16 @@ function nextStep(page) {
     };
     reader.readAsDataURL(photo);
 }
+
+document.addEventListener("touchstart", function(event) {
+    if (event.target.tagName === "INPUT") {
+      document.body.style.zoom = "1"; 
+    }
+  });
+  
+  document.addEventListener("touchend", function(event) {
+    if (event.target.tagName === "INPUT") {
+      document.body.style.zoom = ""; 
+    }
+  });
+  

@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
     <title>Встановити ціну</title>
     <link rel="stylesheet" href="style/style.css">
     <script src="scripts/set_price.js" defer></script>
@@ -16,11 +18,10 @@
         <label for="goalPrice">Вкажи вартість своєї цілі та обери валюту:</label>
         <div class="input-price">
             <input type="number" id="goalPrice" placeholder="Ціна">
-            <input type="text" id="goalCurrency" placeholder="Валюта">
+            <input type="text" id="goalCurrency" placeholder="Валюта" maxlength="3" pattern="[A-Za-z]{3}">
         </div>
         <button onclick="nextStep('goal_page.html')">Завершити</button>
     </div>
 
 </body>
-
 </html>
